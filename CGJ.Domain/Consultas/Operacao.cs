@@ -9,6 +9,6 @@ namespace CGJ.Domain.Consultas
         public Usuario Usuario { get; set; }
         public DateTime Data { get; set; }
         public string Descricao { get; set; }
-        public List<Auditoria> Auditorias { get; set; }
+        public List<CGJ.Domain.Auditoria.Auditoria> Auditorias { get; set; }
     }
 }

@@ -1,4 +1,5 @@
-﻿using CGJ.Domain.Consultas;
+﻿using CGJ.Domain.Auditoria;
+using CGJ.Domain.Consultas;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 

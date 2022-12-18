@@ -1,6 +1,7 @@
-﻿using CGJ.Infra.Entidade;
+﻿using CGJ.Domain.Consultas;
+using CGJ.Infra.Entidade;
 
-namespace CGJ.Domain.Consultas
+namespace CGJ.Domain.Auditoria
 {
     public class Auditoria : Entidade<Guid>
     {

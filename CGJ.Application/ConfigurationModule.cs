@@ -1,4 +1,6 @@
-﻿using CGJ.Application.Clientes.Service;
+﻿using CGJ.Application.Auditoria.Service;
+using CGJ.Application.Auditoria.Service.Interfaces;
+using CGJ.Application.Clientes.Service;
 using CGJ.Application.Clientes.Service.Interfaces;
 using CGJ.Application.Consultas.Service;
 using CGJ.Application.Consultas.Service.Interfaces;

@@ -1,4 +1,5 @@
-﻿using CGJ.Application.Consultas.DTO;
+﻿using CGJ.Application.Auditoria.DTO;
+using CGJ.Application.Consultas.DTO;
 using CGJ.Domain.Consultas;
 
 namespace CGJ.Application.Consultas.Profile
@@ -7,9 +8,9 @@ namespace CGJ.Application.Consultas.Profile
     {
         public ConsultasProfile()
         {
-            CreateMap<Auditoria, AuditoriaOutputDTO>();
-            CreateMap<AuditoriaInputDTO, Auditoria>();
-            CreateMap<AuditoriaUpdateDTO, Auditoria>();
+            CreateMap<CGJ.Domain.Auditoria.Auditoria, AuditoriaOutputDTO>();
+            CreateMap<AuditoriaInputDTO, CGJ.Domain.Auditoria.Auditoria>();
+            CreateMap<AuditoriaUpdateDTO, CGJ.Domain.Auditoria.Auditoria>();
 
             CreateMap<Consulta, ConsultaOutputDTO>()
                 .ForMember(x => x.Login, f => f.MapFrom(m => m.Autenticacao.Login));

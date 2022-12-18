@@ -1,4 +1,4 @@
-﻿using CGJ.Domain.ValueObjects;
+﻿using CGJ.Domain.Shared.ValueObjects;
 using CGJ.Infra.Entidade;
 
 namespace CGJ.Domain.Consultas

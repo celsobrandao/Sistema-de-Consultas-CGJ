@@ -1,7 +1,9 @@
-﻿using CGJ.Domain.Clientes.Repository;
+﻿using CGJ.Domain.Auditoria.Repository;
+using CGJ.Domain.Clientes.Repository;
 using CGJ.Domain.Consultas.Repository;
 using CGJ.Repository.Context;
 using CGJ.Repository.Database;
+using CGJ.Repository.Repository.Auditoria;
 using CGJ.Repository.Repository.Clientes;
 using CGJ.Repository.Repository.Consultas;
 using Microsoft.EntityFrameworkCore;
@@ -27,12 +29,15 @@ namespace CGJ.Repository
             #endregion
 
             #region Consultas
-            services.AddScoped<IAuditoriaRepository, AuditoriaRepository>();
             services.AddScoped<IConsultaRepository, ConsultaRepository>();
             services.AddScoped<IContratoRepository, ContratoRepository>();
             services.AddScoped<IFornecedorRepository, FornecedorRepository>();
             services.AddScoped<IOperacaoRepository, OperacaoRepository>();
             services.AddScoped<IPlanoRepository, PlanoRepository>();
+            #endregion
+
+            #region Auditoria
+            services.AddScoped<IAuditoriaRepository, AuditoriaRepository>();
             #endregion
 
             return services;

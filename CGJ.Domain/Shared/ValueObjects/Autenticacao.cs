@@ -1,4 +1,4 @@
-﻿namespace CGJ.Domain.ValueObjects
+﻿namespace CGJ.Domain.Shared.ValueObjects
 {
     public class Autenticacao
     {

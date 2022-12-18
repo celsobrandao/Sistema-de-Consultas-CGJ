@@ -1,4 +1,6 @@
-﻿namespace CGJ.Application.Consultas.DTO
+﻿using CGJ.Application.Consultas.DTO;
+
+namespace CGJ.Application.Auditoria.DTO
 {
     public record AuditoriaInputDTO(OperacaoInputDTO Operacao, DateTime Data);
 
