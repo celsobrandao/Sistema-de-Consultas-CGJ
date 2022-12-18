@@ -1,6 +1,6 @@
 ﻿using CGJ.Infra.Repository;
 
-namespace CGJ.Domain.Auditoria.Repository
+namespace CGJ.Domain.Auditorias.Repository
 {
     public interface IAuditoriaRepository : IRepository<Auditoria>
     {

@@ -1,9 +1,8 @@
-﻿using CGJ.Domain.Auditoria;
-using CGJ.Domain.Consultas;
+﻿using CGJ.Domain.Auditorias;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace CGJ.Repository.Mapping.Consultas
+namespace CGJ.Repository.Mapping.Auditorias
 {
     public class AuditoriaMapping : IEntityTypeConfiguration<Auditoria>
     {

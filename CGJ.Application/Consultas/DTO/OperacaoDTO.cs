@@ -1,4 +1,4 @@
-﻿using CGJ.Application.Auditoria.DTO;
+﻿using CGJ.Application.Auditorias.DTO;
 using CGJ.Application.Clientes.DTO;
 
 namespace CGJ.Application.Consultas.DTO
